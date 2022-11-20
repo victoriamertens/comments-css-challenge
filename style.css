@@ -1,12 +1,11 @@
-/* *{ 
-  background-color: blue;
-} */
-
 /* One Component*/
+
 /* Post Div */
 section {
-  width: 100%;
+  width: 400px;
+  margin: auto;
   padding: 2px;
+  font-family: 'Rubik', sans-serif;
 }
 .complete-post,
 .complete-comment {
@@ -21,6 +20,35 @@ section {
   margin: 0px;
   padding: 10px;
 }
+
+/* Counters */
+.counters p {
+  display: inline;
+  margin: 5px;
+  color: hsl(238, 40%, 52%);
+  font-size: 0.75em;
+}
+.count {
+  border: none;
+  background-color: (hsl(228, 33%, 97%));
+  color: hsl(211, 10%, 45%);
+  border-radius: 5px;
+}
+
+.counters {
+  border: none;
+  background-color: hsl(223, 19%, 93%);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 5px;
+  padding: 1px;
+  height: 60px;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -35,37 +63,32 @@ section {
   align-items: center;
   gap: 10px;
 }
+.username {
+  font-weight: bold;
+  font-size: 0.75em;
+  color: hsl(212, 24%, 26%);
+}
+.post-time {
+  font-size: 0.5em;
+  color: hsl(211, 10%, 45%);
+}
 
 .profile-pic {
   width: 25px;
   vertical-align: middle;
 }
-
-/* Counters */
-.counters p {
-  display: inline;
-  margin: 5px;
-}
-
-.counters {
-  border: 1px solid grey;
-  display: flex;
-  flex-direction: column;
-  width: 10%;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Post Line*/
-
-.reply-btn {
-  background-color: blueviolet;
-  color: white;
-  border-radius: 3px;
+.reply-btn-post {
   border: none;
-  padding: 0.25rem;
+  background-color: white;
+  color: hsl(238, 40%, 52%);
+  font-weight: bold;
+  font-size: 0.75em;
 }
-
+.post {
+  font-size: 0.7em;
+  color: darkgrey;
+}
+/* Comment Box*/
 .complete-comment {
   display: flex;
   flex-direction: row;
@@ -79,4 +102,25 @@ section {
 }
 
 .comment-box {
+  display: flex;
+  flex-direction: row;
+}
+.stretch-box {
+  width: 280px;
+  margin: 5px;
+  border: 1px solid hsl(238, 40%, 52%);
+  border-radius: 4px;
+}
+.reply-btn-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.reply-btn {
+  background-color: hsl(238, 40%, 52%);
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px 1px;
 }
