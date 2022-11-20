@@ -35,146 +35,194 @@
     </style>
   </head>
   <body>
-    <section>
-      <!-- Comment #1 -->
-      <div class="complete-post">
-        <div class="counters">
-          <button class="count">+</button>
-          <p>12</p>
-          <button class="count">-</button>
-        </div>
-        <div class="post-info">
-          <div class="header">
-            <div class="header-left">
-              <img
-                class="profile-pic"
-                src="./images/avatars/image-amyrobson.png"
-                alt="profile"
-              />
-              <p class="username">amyrobson</p>
-              <p class="post-time">1 month ago</p>
-            </div>
-            <div class="header-right">
-              <button class="reply-btn-post">Reply</button>
-            </div>
+    <div id="panel">
+      <section>
+        <!-- Comment #1 -->
+        <div class="complete-post">
+          <div class="counters">
+            <button class="count">+</button>
+            <p>12</p>
+            <button class="count">-</button>
           </div>
+          <div class="post-info">
+            <div class="header">
+              <div class="header-left">
+                <img
+                  class="profile-pic"
+                  src="./images/avatars/image-amyrobson.png"
+                  alt="profile"
+                />
+                <p class="username">amyrobson</p>
+                <p class="post-time">1 month ago</p>
+              </div>
+              <div class="header-right">
+                <button class="reply-btn-post">
+                  <object
+                    type="image/svg+xml"
+                    data="./images/icon-reply.svg"
+                    class="arrow"
+                  ></object
+                  >Reply
+                </button>
+              </div>
+            </div>
 
-          <div class="post">
-            Impressive! Though it seems the drag feature could be improved. But
-            overall it looks incredible. You've nailed the design and the
-            responsiveness at various breakpoints works really well.
+            <div class="post">
+              Impressive! Though it seems the drag feature could be improved.
+              But overall it looks incredible. You've nailed the design and the
+              responsiveness at various breakpoints works really well.
+            </div>
           </div>
         </div>
-      </div>
-      <div class="complete-comment">
-        <div class="comment-profile-pic">
-          <img src="./images/avatars/image-juliusomo.png" alt="profile" />
-        </div>
-        <div class="comment-box">
+        <div class="complete-comment">
+          <div class="comment-profile-pic">
+            <img
+              class="comment-photo"
+              src="./images/avatars/image-juliusomo.png"
+              alt="profile"
+            />
+          </div>
           <textarea rows="4" columns="100" class="stretch-box"></textarea>
           <div class="reply-btn-box">
             <button class="reply-btn">Reply</button>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Comment #2 -->
-    <section>
-      <div class="complete-post">
-        <div class="counters">
-          <button class="count">+</button>
-          <p>5</p>
-          <button class="count">-</button>
-        </div>
-
-        <div class="post-info">
-          <div class="header">
-            <div class="header-left">
-              <img
-                class="profile-pic"
-                src="./images/avatars/image-maxblagun.png"
-                alt="profile"
-              />
-              <p class="username">maxblagun</p>
-              <p class="post-time">2 weeks ago</p>
-            </div>
-            <div class="header-right">
-              <button class="reply-btn-post">Reply</button>
-            </div>
-          </div>
-          <div class="post">
-            Woah, your project looks awesome! How long have you been coding for?
-            I'm still new, but think I want to dive into React as well soon.
-            Perhaps you can give me an insight on where I can learn React?
-            Thanks!
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Comment #3 (Reply to comment #2) -->
-    <section>
-      <div class="complete-post">
-        <div class="counters">
-          <button class="count">+</button>
-          <p>4</p>
-          <button class="count">-</button>
-        </div>
-        <div class="post-info">
-          <div class="header">
-            <div class="header-left">
-              <img
-                class="profile-pic"
-                src="./images/avatars/image-ramsesmiron.png"
-                alt="profile"
-              />
-              <p class="username">ramsesmiron</p>
-              <p class="post-time">1 week ago</p>
-            </div>
-            <div class="header-right">
-              <button class="reply-btn-post">Reply</button>
-            </div>
+      </section>
+      <!-- Comment #2 -->
+      <section>
+        <div class="complete-post">
+          <div class="counters">
+            <button class="count">+</button>
+            <p>5</p>
+            <button class="count">-</button>
           </div>
 
-          <div class="post">
-            @maxblagun If you're still new, I'd recommend focusing on the
-            fundamentals of HTML, CSS, and JS before considering React. It's
-            very tempting to jump ahead but lay a solid foundation first.
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Comment #4 (Reply to comment #2) -->
-    <section>
-      <div class="complete-post">
-        <div class="counters">
-          <button class="count">+</button>
-          <p>2</p>
-          <button class="count">-</button>
-        </div>
-        <div class="post-info">
-          <div class="header">
-            <div class="header-left">
-              <img
-                class="profile-pic"
-                src="./images/avatars/image-juliusomo.png"
-                alt="profile"
-              />
-              <p class="username">juliusomo</p>
-              <p class="post-time">2 days ago</p>
+          <div class="post-info">
+            <div class="header">
+              <div class="header-left">
+                <img
+                  class="profile-pic"
+                  src="./images/avatars/image-maxblagun.png"
+                  alt="profile"
+                />
+                <p class="username">maxblagun</p>
+                <p class="post-time">2 weeks ago</p>
+              </div>
+              <div class="header-right">
+                <button class="reply-btn-post">
+                  <object
+                    type="image/svg+xml"
+                    data="./images/icon-reply.svg"
+                  ></object
+                  >Reply
+                </button>
+              </div>
             </div>
-            <div class="header-right">
-              <button class="reply-btn-post">Reply</button>
+            <div class="post">
+              Woah, your project looks awesome! How long have you been coding
+              for? I'm still new, but think I want to dive into React as well
+              soon. Perhaps you can give me an insight on where I can learn
+              React? Thanks!
             </div>
           </div>
+        </div>
+      </section>
+      <!-- Comment #3 (Reply to comment #2) -->
+      <div class="reply">
+        <section>
+          <div class="complete-post">
+            <div class="counters">
+              <button class="count">+</button>
+              <p>4</p>
+              <button class="count">-</button>
+            </div>
+            <div class="post-info">
+              <div class="header">
+                <div class="header-left">
+                  <img
+                    class="profile-pic"
+                    src="./images/avatars/image-ramsesmiron.png"
+                    alt="profile"
+                  />
+                  <p class="username">ramsesmiron</p>
+                  <p class="post-time">1 week ago</p>
+                </div>
+                <div class="header-right">
+                  <button class="reply-btn-post">
+                    <object
+                      type="image/svg+xml"
+                      data="./images/icon-reply.svg"
+                    ></object
+                    >Reply
+                  </button>
+                </div>
+              </div>
 
-          <div class="post">
-            @ramsesmiron I couldn't agree more with this. Everything moves so
-            fast and it always seems like everyone knows the newest
-            library/framework. But the fundamentals are what stay constant.
+              <div class="post">
+                @maxblagun If you're still new, I'd recommend focusing on the
+                fundamentals of HTML, CSS, and JS before considering React. It's
+                very tempting to jump ahead but lay a solid foundation first.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Comment #4 (Reply to comment #2) -->
+        <section>
+          <div class="complete-post">
+            <div class="counters">
+              <button class="count">+</button>
+              <p>2</p>
+              <button class="count">-</button>
+            </div>
+            <div class="post-info">
+              <div class="header">
+                <div class="header-left">
+                  <img
+                    class="profile-pic"
+                    src="./images/avatars/image-juliusomo.png"
+                    alt="profile"
+                  />
+                  <p class="username">juliusomo</p>
+                  <p class="post-time">2 days ago</p>
+                </div>
+                <div class="header-right">
+                  <button class="reply-btn-post">
+                    <object
+                      type="image/svg+xml"
+                      data="./images/icon-reply.svg"
+                    ></object
+                    >Reply
+                  </button>
+                </div>
+              </div>
+
+              <div class="post">
+                @ramsesmiron I couldn't agree more with this. Everything moves
+                so fast and it always seems like everyone knows the newest
+                library/framework. But the fundamentals are what stay constant.
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="change-width">
+        <div class="complete-comment">
+          <div class="comment-profile-pic">
+            <img
+              class="comment-photo"
+              src="./images/avatars/image-juliusomo.png"
+              alt="profile"
+            />
+          </div>
+          <textarea rows="4" columns="100" class="stretch-box"></textarea>
+          <div class="reply-btn-box">
+            <button class="reply-btn">Reply</button>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
+
     <div class="attribution">
       Challenge adapted from
       <a
