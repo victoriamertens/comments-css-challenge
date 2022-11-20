@@ -1,0 +1,82 @@
+/* *{ 
+  background-color: blue;
+} */
+
+/* One Component*/
+/* Post Div */
+section {
+  width: 100%;
+  padding: 2px;
+}
+.complete-post,
+.complete-comment {
+  display: flex;
+  border: 1px solid darkgrey;
+  border-radius: 10px;
+}
+/* post info*/
+.post-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 10px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 35px;
+  margin: 0px;
+  align-items: center;
+}
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-pic {
+  width: 25px;
+  vertical-align: middle;
+}
+
+/* Counters */
+.counters p {
+  display: inline;
+  margin: 5px;
+}
+
+.counters {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Post Line*/
+
+.reply-btn {
+  background-color: blueviolet;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 0.25rem;
+}
+
+.complete-comment {
+  display: flex;
+  flex-direction: row;
+}
+
+.comment-profile-pic {
+  display: flex;
+  flex-direction: column;
+  width: 35px;
+  padding: 3px;
+}
+
+.comment-box {
+}
